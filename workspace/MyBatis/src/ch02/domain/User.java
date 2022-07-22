@@ -2,8 +2,9 @@ package ch02.domain;
 
 import java.time.LocalDate;
 
-//과제 users relation과 mapping 할 User object를 디자인하라.
-public class User {
+
+public class User { 
+	//과제 users relation과 mapping 할 User object를 디자인하라.
 	private int userId;
 	private String userName;
 	private LocalDate regDate;
