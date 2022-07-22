@@ -10,6 +10,6 @@ public class Main {
 		Map mapper = Configuration.getMapper(Map.class);
 		
 		List<User> users = mapper.selectUsers();
-		users.forEach(System.out::println);	
+		users.forEach(System.out::println);	 
 	}
 }
