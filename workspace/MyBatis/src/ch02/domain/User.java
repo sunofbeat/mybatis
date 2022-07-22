@@ -14,9 +14,7 @@ public class User {
 		this.userId = userId;
 		this.regDate = regDate;
 	}
-	
-	
-	
+
 	@Override
 	public String toString() {
 		return String.format("%d %s %s", userId, userName, regDate);
